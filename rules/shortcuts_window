@@ -1,0 +1,52 @@
+Windows Visual Studio Code shortcuts
+
+- Ctrl + P: Quick Open
+- Ctrl + Shift + P: Show All Commands
+- Ctrl + Shift + O: Go to Symbol
+- Ctrl + Shift + M: Show Problems
+- Ctrl + Shift + D: Open Run and Debug
+- Ctrl + B: Toggle Sidebar
+- Ctrl + J: Toggle Panel
+- Ctrl + `: Toggle Integrated Terminal
+- Ctrl + K, Ctrl + S: Keyboard Shortcuts
+- Ctrl + K, Ctrl + X: Trim Trailing Whitespace
+- Ctrl + /: Toggle Line Comment
+- Shift + Alt + A: Toggle Block Comment
+- Shift + Alt + F: Format Document
+- Ctrl + Shift + K: Delete Line
+- Ctrl + Enter: Insert Line Below
+- Ctrl + Shift + Enter: Insert Line Above
+- Alt + Up / Alt + Down: Move Line Up/Down
+- Shift + Alt + Up / Shift + Alt + Down: Copy Line Up/Down
+- Ctrl + D: Add Selection to Next Find Match
+- Ctrl + L: Select Line
+- Ctrl + F: Find
+- Ctrl + H: Replace
+- Ctrl + Shift + H: Replace in Files
+- Ctrl + F2: Select All Occurrences of Find Match
+- Ctrl + Shift + \: Jump to Matching Bracket
+- F11: Toggle Full Screen
+- Ctrl + W: Close Editor
+- Ctrl + Shift + T: Reopen Closed Editor
+- Ctrl + N: New File
+- Ctrl + S: Save File
+- Ctrl + K, S: Keyboard Shortcuts
+- Ctrl + Shift + E: Show Explorer
+- Ctrl + Shift + F: Find in Files
+- Ctrl + K, Ctrl + 0: Focus into Editor Group 0
+
+JavaScript-specific shortcuts
+
+- F12: Go to Definition
+- Alt + F12: Peek Definition
+- Ctrl + .: Quick Fix
+- Ctrl + K, Ctrl + I: Show Hover
+- Ctrl + K, M: Change Language Mode
+- F2: Rename Symbol
+- Alt + Click: Multi-cursor
+- Ctrl + Shift + `: Create New Integrated Terminal
+- Ctrl + K, Ctrl + U: Change All Occurrences to Uppercase
+- Ctrl + K, Ctrl + L: Change All Occurrences to Lowercase
+- Ctrl + Shift + Space: Trigger Parameter Hints
+- Ctrl + K, Ctrl + 8: Toggle Problems Panel
+- Ctrl + K, Ctrl + /: Toggle Line Comment for selected JS code

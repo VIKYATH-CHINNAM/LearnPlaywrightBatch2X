@@ -1,0 +1,52 @@
+Mac Visual Studio Code shortcuts
+
+- Command + P: Quick Open
+- Command + Shift + P: Show All Commands
+- Command + Shift + O: Go to Symbol
+- Command + Shift + M: Show Problems
+- Command + Shift + D: Open Run and Debug
+- Command + B: Toggle Sidebar
+- Command + J: Toggle Panel
+- Command + `: Toggle Integrated Terminal
+- Command + K, Command + S: Keyboard Shortcuts
+- Command + K, Command + X: Trim Trailing Whitespace
+- Command + /: Toggle Line Comment
+- Option + Shift + A: Toggle Block Comment
+- Shift + Option + F: Format Document
+- Command + Shift + K: Delete Line
+- Command + Enter: Insert Line Below
+- Command + Shift + Enter: Insert Line Above
+- Option + Up / Option + Down: Move Line Up/Down
+- Shift + Option + Up / Shift + Option + Down: Copy Line Up/Down
+- Command + D: Add Selection to Next Find Match
+- Command + L: Select Line
+- Command + F: Find
+- Command + Option + F: Replace in Files
+- Command + Shift + \: Jump to Matching Bracket
+- Command + K, Command + Z: Toggle Zen Mode
+- Command + W: Close Editor
+- Command + Shift + T: Reopen Closed Editor
+- Command + N: New File
+- Command + S: Save File
+- Command + Option + S: Save All
+- Command + Shift + E: Show Explorer
+- Command + Shift + F: Find in Files
+- Command + Shift + H: Replace in Files
+- Command + K, Command + 0: Focus into Editor Group 0
+
+JavaScript-specific shortcuts
+
+- F12: Go to Definition
+- Option + F12: Peek Definition
+- Command + .: Quick Fix
+- Command + K, Command + I: Show Hover
+- Command + K, Command + M: Change Language Mode
+- Command + Shift + R: Rename Symbol
+- Option + Click: Multi-cursor
+- Command + Shift + `: Create New Integrated Terminal
+- Command + K, Command + U: Change All Occurrences to Uppercase
+- Command + K, Command + L: Change All Occurrences to Lowercase
+- Option + `: Show Parameter Hints
+- Command + Shift + C: Open New Command Prompt/Terminal
+- Command + K, Command + 8: Toggle Problems Panel
+- Command + K, Command + /: Toggle Line Comment for selected JS code
