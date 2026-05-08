@@ -30,6 +30,24 @@
   - `var` (reserved keyword)
   - `import` (reserved keyword)
 
+### Code examples
+```js
+let userName = 'Alice';
+const $price = 9.99;
+var _count = 42;
+function calculateTotal(amount, taxRate) {
+  return amount + amount * taxRate;
+}
+```
+
+### Invalid code examples
+```js
+let 1value = 5;        // SyntaxError: invalid identifier
+const my-name = 'A';   // SyntaxError: invalid identifier
+let var = 10;          // SyntaxError: reserved keyword
+function import() {}   // SyntaxError: reserved keyword
+```
+
 ## Notes
 - `let` and `const` are keywords for variable declarations, so they cannot be used as variable names.
 - In strict mode, additional words may be reserved for future use.
