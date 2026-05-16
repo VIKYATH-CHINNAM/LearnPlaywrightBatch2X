@@ -64,6 +64,51 @@ console.log(z); // 15
 - Must be assigned a value during declaration.
 - Cannot be redeclared or reassigned.
 
+## Temporal Dead Zone (TDZ)
+
+### Definition
+The Temporal Dead Zone (TDZ) is the period between entering the scope of a `let` or `const` variable and its actual declaration in code. During this zone, the variable exists but cannot be accessed. Attempting to access it throws a `ReferenceError`.
+
+### How TDZ Works
+1. JavaScript engine scans the code and hoists `let` and `const` declarations to the top of their block scope.
+2. Unlike `var`, these variables are **not initialized** with `undefined`.
+3. From the start of the block until the line where the variable is declared, it is in the TDZ.
+4. Once the declaration line is executed, the variable exits the TDZ and becomes usable.
+
+### Example
+```js
+{
+  // TDZ starts here for 'a'
+  console.log(a); // ReferenceError: Cannot access 'a' before initialization
+  
+  let a = 5; // TDZ ends here
+  console.log(a); // 5
+}
+```
+
+### TDZ with Default Parameters
+```js
+function foo(x = y, y = 2) {
+  return [x, y];
+}
+foo(); // ReferenceError: Cannot access 'y' before initialization
+```
+In this example, `x` tries to use `y` in its default value, but `y` is still in the TDZ.
+
+### TDZ and `typeof`
+Unlike `var`, using `typeof` on a `let` or `const` variable in the TDZ throws an error instead of returning `"undefined"`.
+```js
+console.log(typeof undeclaredVar); // "undefined"
+
+console.log(typeof tdzVar); // ReferenceError
+let tdzVar = 10;
+```
+
+### Why TDZ Exists
+- Catches errors early: Prevents accidental use of variables before they are properly initialized.
+- Enforces safer coding practices: Encourages declaring variables before use.
+- Improves `const` reliability: Ensures `const` variables are always initialized before access.
+
 ## Comparison Table
 
 | Feature          | `var`              | `let`              | `const`            |
